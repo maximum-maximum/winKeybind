@@ -75,6 +75,7 @@ return
 <^+a::send_key("^+a","+{Home}")
 <^e::send_key("^e","{End}")
 <^+e::send_key("^+e","+{End}")
+;
 ;----------------------------------------------------------------
 ;Editing System
 ;ctrl + h : BackSpace
@@ -82,13 +83,14 @@ return
 ;ctrl + m : Enter
 ;ctrl + k : Delete from the cursor to the end of the line
 ;ctrl + space : Switch between half/full-width
-;
-;References
-;https://www.karakaram.com/mac-control/
-;https://so-zou.jp/software/tool/system/auto-hot-key/hotkeys/
 ;----------------------------------------------------------------
 <^h::send_key("^h","{BS}")
 <^d::send_key("^d","{Del}")
 <^m::send_key("^m","{Return}")
 <^k::send_key("^k","+{End}{Del}")
 <^Space::send_key("^Space","{sc029}")
+;
+;----------------------------------------------------------------
+;References
+;https://www.karakaram.com/mac-control/
+;https://so-zou.jp/software/tool/system/auto-hot-key/hotkeys/
